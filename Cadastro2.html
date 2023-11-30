@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Cadastro2</title>
+</head>
+
+<body>
+        <header class="header">
+            <a href="home.html" class="logo">SpaceTime</a>
+           
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="#">Cadastro2</a>
+            </nav>
+        </header>
+
+        <main>
+            <form id="cadastro2" action="" onsubmit="consultarID(event)">
+                <label for="idNumerico"></label>
+                <input type="number" id="idNumerico" name="idNumerico" required>
+                <button type="button" class="button blue mobile" id="cadastrarCliente">Consultar ID</button>
+            </form>
+            <table class="records">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Departamento</th>
+                        <th>Endereço</th>
+                        <th>E-mail</th>
+                        <th>Ação</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Brenda</td>
+                            <td>Desenvolvimento</td>
+                            <td>Blumenau</td>
+                            <td> eisingbrenda@gmail.com</td>
+                            <td>
+                                <button type="button" class="button red">excluir</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </thead>
+            </table>
+        </main>
+
+        
+    <footer>
+        Brenda e Mayara 𓆩♡𓆪
+    </footer>
+</body>
+</html>
